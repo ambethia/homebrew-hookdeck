@@ -8,7 +8,7 @@ class Hookdeck < Formula
   version "0.3.6"
   bottle :unneeded
 
-  if OS.mac? && Hardware::CPU.intel?
+  if OS.mac?
     url "https://github.com/hookdeck/hookdeck-cli/releases/download/v0.3.6/hookdeck_0.3.6_mac-os_x86_64.tar.gz"
     sha256 "59fd224ac9156da1da217cac7efe975f53aee6f1846968c5c109b6414e616148"
   end
